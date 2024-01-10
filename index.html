@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+    <main>
+        <div class="converter">
+            <input type="number" id="temperatureInput" placeholder="Enter temperature" class="input-field">
+            <select id="unitSelect" class="input-field">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <button onclick="convertTemperature()" class="convert-btn">Convert</button>
+            <div id="result" class="result"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Temperature Converter - Yash Harad</p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
